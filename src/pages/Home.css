@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  background-color: white;
+  padding: 0 2rem;
+  gap: 5rem;
+  box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1)
+}
+
+.innerbox {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+.innerbox ul {
+  display: flex;
+  list-style: none; /* ✅ This removes the dots */
+  gap: 2rem;
+  align-items: center;
+}
+
+
+.search input {
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+ border: solid gray 2px;
+ 
+}
+.icon{
+    background-color: rgb(19 105 54 / 1);
+    width: 2rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-left: -8rem;
+   border-radius: 1rem;
+
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.7rem;
+}
+.size{
+   width: 2rem;
+    height: 2rem;
+    
+    
+}
+.sizes{
+ width: 1.7rem;
+height: 1.7rem;
+
+}
+.logo1{
+  height: 5rem;
+  width: 7rem;
+  border-radius: 1rem;
+}
+
+    
+
+
+
