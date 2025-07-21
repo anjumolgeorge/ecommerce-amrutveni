@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
-
 const Index = () => {
   return (
     <>
@@ -69,6 +68,13 @@ const Index = () => {
             </div>
           </SwiperSlide>
         </Swiper>
+      </div>
+
+      {/* Products */}
+      <div className="product-container">
+        <div className="inline-div">
+           <h2><b>Best Sellers</b></h2>
+        </div>
       </div>
     </>
   );
