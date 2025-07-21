@@ -1,0 +1,77 @@
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, EffectFade } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/effect-fade";
+
+const Index = () => {
+  return (
+    <>
+      {/* Hero */}
+      <div className="hero">
+        <Swiper
+          slidesPerView={1}
+          spaceBetween={0}
+          modules={[Autoplay, EffectFade]}
+          effect="fade"
+          loop={true}
+          autoplay={{
+            delay: 3000,
+          }}
+        >
+          <SwiperSlide>
+            <div className="hero-wrap">
+              <div className="hero-content">
+                <h2>
+                  <b>
+                    Bio-technology for vibrant <br />
+                    and resilient hair
+                  </b>
+                </h2>
+                <div className="btnstyle">
+                <a href="#" className="btn">
+                  Shop Now
+                </a>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="hero-wrap">
+              <div className="hero-content">
+                <h2>
+                  <b>
+                   Experience stronger, fuller<br/> hair for a radiant you.
+                  </b>
+                </h2>
+                 <div className="btnstyle">
+                <a href="#" className="btn">
+                  Shop Now
+                </a>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="hero-wrap">
+              <div className="hero-content">
+                <h2>
+                  <b>
+                  Hair issues? Explore our <br/> tailored gender- <br/>specific solutions.
+                  </b>
+                </h2>
+                <div className="btnstyle">
+                <a href="#" className="btn">
+                  Shop Now
+                </a>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+        </Swiper>
+      </div>
+    </>
+  );
+};
+
+export default Index;

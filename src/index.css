@@ -3,3 +3,31 @@
 :root{
     --poppins:"poppins"
 }
+/* Hero section */
+
+.hero-wrap{
+    height: 90vh;
+    background-image: url(/public/assets/bannner.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 68rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    animation: anim-zoomout var(--transition-regular) forwards;
+}
+
+
+.btn:hover {
+  background-color: #0f5c2c; 
+}
+.btnstyle{
+  background-color: #136936; 
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 2rem;
+  transition: background-color 0.3s ease;
+  color: aliceblue;
+}
